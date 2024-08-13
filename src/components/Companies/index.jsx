@@ -9,11 +9,11 @@ function Companies() {
     <div className={styles.companies_container}>
       <p className={styles.text}>Помогаем найти работу:</p>
       <div className={styles.companies_logos}>
-        <img src={Disney_logo} alt="Disney" />
-        <img src={Facebook_logo} alt="Facebook" />
-        <img src={Microsoft_logo} alt="Microsoft" />
-        <img src={Sony_logo} alt="Sony" />
-        <img src={CocaCola_logo} alt="CocaCola" />
+        <img src={Disney_logo} alt="Disney" className={styles.logo} />
+        <img src={Facebook_logo} alt="Facebook" className={styles.logo} />
+        <img src={Microsoft_logo} alt="Microsoft" className={styles.logo} />
+        <img src={Sony_logo} alt="Sony" className={styles.logo} />
+        <img src={CocaCola_logo} alt="CocaCola" className={styles.logo} />
       </div>
     </div>
   );

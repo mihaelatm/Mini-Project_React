@@ -3,14 +3,21 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 100px;
-  height: 180px;
 }
 .text {
   font-size: 16px;
   font-weight: 600;
   color: rgba(105, 105, 105, 0.8);
+  padding: 83px 0 78px 0;
 }
 .companies_logos {
   display: flex;
+  justify-content: center;
   gap: 56.39px;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
 }
