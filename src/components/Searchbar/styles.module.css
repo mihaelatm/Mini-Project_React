@@ -1,5 +1,5 @@
 .searchbar_container {
-  padding: 131px 100px;
+  padding: 131px 100px 295px 100px;
   background-color: #cde7ff;
 }
 
@@ -8,6 +8,12 @@
   font-weight: 700;
 }
 
+.searchbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  box-shadow: 6px 5px 9px rgba(0, 0, 0, 0.35);
+}
 .searchbar_form {
   margin-top: 15px;
   display: flex;
@@ -71,7 +77,7 @@
   height: 105px;
   color: #fff;
   background-color: #274059;
-  border: none;
   font-size: 22px;
   font-weight: 700;
+  border: none;
 }
