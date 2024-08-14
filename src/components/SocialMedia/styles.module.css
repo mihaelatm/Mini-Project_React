@@ -1,0 +1,22 @@
+.social__media_container {
+  background-color: #52606d;
+  padding: 0 100px;
+}
+
+.social__media_container hr {
+  border: 2px solid #465461;
+  margin-bottom: 54px;
+}
+
+.social__media_logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.social__media {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}

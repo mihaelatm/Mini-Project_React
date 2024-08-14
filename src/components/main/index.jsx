@@ -3,6 +3,7 @@ import Searchbar from "../Searchbar";
 import Companies from "../Companies";
 import Categories from "../Categories";
 import JobList from "../JobList";
+import Footer from "../footer";
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Companies />
       <Categories />
       <JobList />
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 .categories_section {
-  padding: 0px 100px;
   background-color: #e4f2ff;
+  padding: 0 100px;
+  width: 100%;
 }
 
 .categories_title {
@@ -15,15 +16,15 @@
 .categories_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 27px;
 }
 
 .categories_card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   max-width: 270px;
+  gap: 20px;
   height: 198px;
   box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
