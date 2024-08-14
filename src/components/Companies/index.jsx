@@ -4,6 +4,7 @@ import Facebook_logo from "../../assets/icons/Facebook_logo.svg";
 import Microsoft_logo from "../../assets/icons/Microsoft_logo.svg";
 import Sony_logo from "../../assets/icons/Sony_logo.svg";
 import CocaCola_logo from "../../assets/icons/CocaCola_logo.svg";
+import Image from "../../assets/icons/image.svg";
 function Companies() {
   return (
     <div className={styles.companies_container}>

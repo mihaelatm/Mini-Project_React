@@ -2,6 +2,7 @@ import Styles from "./styles.module.css";
 import Searchbar from "../Searchbar";
 import Companies from "../Companies";
 import Categories from "../Categories";
+import JobList from "../JobList";
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
       <Searchbar />
       <Companies />
       <Categories />
+      <JobList />
     </>
   );
 }

@@ -1,6 +1,9 @@
 .searchbar_container {
   padding: 131px 100px 295px 100px;
   background-color: #cde7ff;
+  background-image: url("../../assets/icons/image.svg");
+  background-repeat: no-repeat;
+  background-position: right 120px;
 }
 
 .title {
