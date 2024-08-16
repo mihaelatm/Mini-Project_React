@@ -1,6 +1,6 @@
 .job__list_container {
   background-color: #e4f2ff;
-  padding: 134px 100px 91px 100px;
+  padding: 0 100px;
   display: flex;
   flex-direction: column;
 }
@@ -91,8 +91,8 @@
 .button {
   width: 236px;
   height: 63px;
-  display: inline-block;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
   font-size: 20px;
   font-weight: 700;
   background-color: #274059;
@@ -101,4 +101,323 @@
   cursor: pointer;
   border: none;
   margin-top: 91px;
+  margin-bottom: 151px;
+}
+
+@media (max-width: 1300px) {
+  .job__list_container {
+    padding: 0 70px;
+  }
+  .button {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .job__list_container {
+    padding: 0 50px;
+  }
+
+  .job__list_title {
+    font-size: 24px;
+  }
+
+  .job__list_text {
+    font-size: 15px;
+  }
+
+  .jobs__list_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .button {
+    width: 200px;
+    height: 58px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .job__list_container {
+    padding: 0 30px;
+  }
+
+  .job__list_title {
+    font-size: 20px;
+    margin-bottom: 9px;
+  }
+
+  .job__list_text {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  .jobs__list_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jobs_cards {
+    max-width: 400px;
+    padding: 30px 0 30px 40px;
+  }
+
+  .job_category {
+    font-size: 14px;
+  }
+
+  .category_circle {
+    width: 12px;
+    height: 12px;
+    margin-right: 15px;
+  }
+
+  .job_name {
+    margin-top: 30px;
+    font-size: 20px;
+    height: 97px;
+  }
+
+  .jobLocation {
+    gap: 12px;
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+
+  .location_icon {
+    width: 12px;
+    height: 17px;
+  }
+
+  .job__time {
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .company_logo {
+    width: 0px;
+    height: auto;
+  }
+
+  .button {
+    width: 190px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__list_container {
+    padding: 0 25px;
+  }
+
+  .job__list_title {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .job__list_text {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  .jobs__list_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jobs_cards {
+    max-width: 300px;
+    padding: 20px 0 20px 20px;
+  }
+
+  .job_category {
+    font-size: 12px;
+  }
+
+  .category_circle {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+  }
+
+  .job_name {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 70px;
+  }
+
+  .jobLocation {
+    gap: 10px;
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
+
+  .location_icon {
+    width: 10px;
+    height: 16px;
+  }
+
+  .job__time {
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .company_logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .button {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .job__list_container {
+    padding: 0 22px;
+  }
+
+  .job__list_title {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .job__list_text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .jobs__list_cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .jobs_cards {
+    max-width: 300px;
+    padding: 15px 0 15px 15px;
+  }
+
+  .job_category {
+    font-size: 10px;
+  }
+
+  .category_circle {
+    width: 7px;
+    height: 7px;
+    margin-right: 8px;
+  }
+
+  .job_name {
+    margin-top: 15px;
+    font-size: 13px;
+    height: 65px;
+  }
+
+  .jobLocation {
+    gap: 8px;
+    font-size: 9px;
+    margin-bottom: 40px;
+  }
+
+  .location_icon {
+    width: 8px;
+    height: 14px;
+  }
+
+  .job__time {
+    gap: 8px;
+    font-size: 10px;
+  }
+
+  .company_logo {
+    width: 40px;
+    height: auto;
+  }
+
+  .button {
+    width: 120px;
+    height: 32px;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .job__list_container {
+    padding: 0 16px;
+  }
+
+  .job__list_title {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+
+  .job__list_text {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+
+  .jobs__list_cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .jobs_cards {
+    max-width: 300px;
+    padding: 15px 0 15px 10px;
+  }
+
+  .job_category {
+    font-size: 10px;
+  }
+
+  .category_circle {
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+  }
+
+  .job_name {
+    margin-top: 15px;
+    font-size: 10px;
+    height: 50px;
+    max-width: 180px;
+  }
+
+  .jobLocation {
+    gap: 5px;
+    font-size: 8px;
+    margin-bottom: 40px;
+  }
+
+  .location_icon {
+    width: 7px;
+    height: 12px;
+  }
+
+  .job__time {
+    gap: 8px;
+    font-size: 8px;
+  }
+
+  .company_logo {
+    width: 30px;
+    height: auto;
+  }
+
+  .button {
+    width: 100px;
+    height: 28px;
+    font-size: 9px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }

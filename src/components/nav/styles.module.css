@@ -38,8 +38,163 @@
   border: none;
   width: 65px;
   height: 44px;
+  font-size: 15px;
+  font-weight: 600;
   background-color: #ffffff;
   color: rgb(39, 64, 89, 0.85);
   font-weight: 600;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav_container {
+    padding: 30px 70px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav_container {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .nav_container {
+    padding: 15px 30px;
+    gap: 80px;
+  }
+  .nav_container > img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .nav_menu > div:first-child {
+    gap: 47px;
+  }
+
+  .nav_menu > div:last-child {
+    gap: 35px;
+  }
+  .nav_menu a {
+    font-size: 14px;
+  }
+  .login_btn {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_container {
+    padding: 15px 25px;
+    gap: 60px;
+  }
+  .nav_container > img {
+    width: 86px;
+    height: 30px;
+  }
+
+  .nav_menu > div:first-child {
+    gap: 40px;
+  }
+
+  .nav_menu > div:last-child {
+    gap: 30px;
+  }
+  .nav_menu a {
+    font-size: 12px;
+  }
+  .login_btn {
+    width: 50px;
+    height: 30px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav_container {
+    padding: 12px 25px;
+    gap: 60px;
+  }
+  .nav_container > img {
+    width: 70px;
+    height: 25px;
+  }
+
+  .nav_menu > div:first-child {
+    gap: 30px;
+  }
+
+  .nav_menu > div:last-child {
+    gap: 25px;
+  }
+  .nav_menu a {
+    font-size: 11px;
+  }
+
+  .login_btn {
+    width: 45px;
+    height: 25px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .nav_container {
+    padding: 10px 22px;
+    gap: 40px;
+  }
+  .nav_container > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .nav_menu > div:first-child {
+    gap: 20px;
+  }
+
+  .nav_menu > div > a:last-child {
+    display: none;
+  }
+
+  .nav_menu a {
+    font-size: 10px;
+  }
+  .nav__link {
+    display: none;
+  }
+
+  .login_btn {
+    width: 45px;
+    height: 25px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .nav_container {
+    padding: 5px 16px;
+    gap: 25px;
+  }
+  .nav_container > img {
+    width: 40px;
+    height: 20px;
+  }
+
+  .nav_menu > div:last-child {
+    gap: 15px;
+  }
+
+  .nav_menu a {
+    font-size: 8px;
+  }
+  .nav__link {
+    display: none;
+  }
+
+  .login_btn {
+    width: 35px;
+    height: 20px;
+    font-size: 9px;
+  }
 }

@@ -1,5 +1,5 @@
 .searchbar_container {
-  padding: 131px 100px 295px 100px;
+  padding: 0px 100px;
   background-color: #cde7ff;
   background-image: url("../../assets/icons/image.svg");
   background-repeat: no-repeat;
@@ -9,6 +9,7 @@
 .title {
   font-size: 64px;
   font-weight: 700;
+  margin-top: 131px;
 }
 
 .searchbar {
@@ -23,6 +24,7 @@
   align-items: center;
   background-color: #fff;
   max-width: 918.75px;
+  margin-bottom: 295px;
 }
 
 .searchbar_input {
@@ -84,4 +86,314 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .searchbar_container {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 54px;
+    margin-top: 100px;
+  }
+
+  .searchbar_form {
+    max-width: 700px;
+    margin-bottom: 200px;
+  }
+
+  .searchbar_input img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+
+  .search_icon {
+    top: 23px;
+    left: 20px;
+  }
+
+  .search_input {
+    width: 330px;
+    padding: 30px 0px 30px 60px;
+    border: none;
+  }
+
+  .search_input::placeholder {
+    font-size: 16px;
+  }
+
+  .location_input {
+    width: 350px;
+    padding: 30px 0px 30px 90px;
+  }
+
+  .location_input::placeholder {
+    font-size: 16px;
+  }
+
+  .location_icon {
+    top: 30px;
+    left: 50px;
+  }
+
+  .search_btn {
+    width: 180px;
+    height: 90px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .searchbar_container {
+    padding: 0px 30px;
+  }
+
+  .title {
+    font-size: 38px;
+    margin-top: 70px;
+  }
+
+  .searchbar_form {
+    max-width: 600px;
+    margin-bottom: 100px;
+  }
+
+  .searchbar_input img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search_icon {
+    top: 7px;
+    left: 20px;
+  }
+
+  .search_input {
+    width: 280px;
+    padding: 10px 0px 10px 60px;
+  }
+
+  .search_input::placeholder {
+    font-size: 14px;
+  }
+
+  .location_input {
+    width: 280px;
+    padding: 10px 0px 10px 80px;
+  }
+
+  .location_input::placeholder {
+    font-size: 14px;
+  }
+
+  .location_icon {
+    top: 23px;
+    left: 50px;
+  }
+
+  .search_btn {
+    width: 140px;
+    height: 70px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchbar_container {
+    padding: 0px 25px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .searchbar_form {
+    max-width: 500px;
+    margin-bottom: 80px;
+  }
+
+  .searchbar_input img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .search_icon {
+    top: 6px;
+    left: 22px;
+  }
+
+  .search_input {
+    width: 240px;
+    padding: 8px 0px 8px 60px;
+  }
+
+  .search_input::placeholder {
+    font-size: 12px;
+  }
+  .vertical_line {
+    height: 15px;
+  }
+
+  .location_input {
+    width: 240px;
+    padding: 8px 0px 8px 80px;
+  }
+
+  .location_input::placeholder {
+    font-size: 12px;
+  }
+
+  .location_icon {
+    top: 15px;
+    left: 50px;
+  }
+
+  .search_btn {
+    width: 110px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .searchbar_form {
+    margin-top: 10px;
+  }
+
+  .searchbar_input img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .search_icon {
+    top: 5px;
+    left: 20px;
+  }
+
+  .search_input {
+    width: 240px;
+    padding: 6px 0px 6px 50px;
+  }
+
+  .vertical_line {
+    height: 13px;
+  }
+
+  .location_input {
+    width: 200px;
+    padding: 6px 0px 6px 70px;
+  }
+
+  .location_icon {
+    top: 14px;
+    left: 38px;
+  }
+
+  .search_btn {
+    width: 100px;
+    height: 46px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .searchbar_container {
+    padding: 0px 22px;
+  }
+  .title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .searchbar_form {
+    max-width: 400px;
+    margin-bottom: 45px;
+  }
+
+  .searchbar_input img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .search_icon {
+    top: 8px;
+    left: 20px;
+  }
+
+  .search_input {
+    width: 350px;
+    padding: 6px 0px 6px 45px;
+  }
+
+  .vertical_line {
+    display: none;
+  }
+
+  .search_input::placeholder {
+    font-size: 10px;
+  }
+
+  .location_icon {
+    display: none;
+  }
+
+  .location_input {
+    display: none;
+  }
+
+  .search_btn {
+    width: 80px;
+    height: 40px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .searchbar_container {
+    padding: 0px 16px;
+  }
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .searchbar_form {
+    max-width: 250px;
+    margin-bottom: 30px;
+  }
+
+  .searchbar_input img {
+    width: 11px;
+    height: 11px;
+  }
+
+  .search_icon {
+    top: 3px;
+    left: 18px;
+  }
+
+  .search_input {
+    width: 250px;
+    padding: 0 40px;
+  }
+
+  .search_input::placeholder {
+    font-size: 8px;
+  }
+
+  .search_btn {
+    width: 60px;
+    height: 30px;
+    font-size: 9px;
+  }
 }

@@ -25,7 +25,7 @@ function Categories() {
   ];
 
   return (
-    <section className={styles.categories_section}>
+    <section className={`$styles.container} ${styles.categories_section}`}>
       <h2 className={styles.categories_title}>Работа по категориям</h2>
       <div className={styles.categories_container}>
         {categories.map((category, index) => (

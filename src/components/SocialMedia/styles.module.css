@@ -14,9 +14,162 @@
   justify-content: space-between;
   margin-bottom: 65px;
 }
+.social__media_logos > img {
+  width: 111px;
+  height: 40px;
+}
 
 .social__media {
   display: flex;
   align-items: center;
   gap: 36px;
+}
+
+.social__media > img {
+  width: 26px;
+  height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .social__media_container {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .social__media_container {
+    padding: 0 50px;
+  }
+
+  .social__media_container hr {
+    margin-bottom: 45px;
+  }
+
+  .social__media_logos {
+    margin-bottom: 55px;
+  }
+
+  .social__media {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .social__media_container {
+    padding: 0 30px;
+  }
+
+  .social__media_container hr {
+    margin-bottom: 38px;
+  }
+
+  .social__media_logos {
+    margin-bottom: 45px;
+  }
+
+  .social__media_logos > img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .social__media {
+    gap: 25px;
+  }
+
+  .social__media > img {
+    width: 24px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social__media_container {
+    padding: 0 25px;
+  }
+
+  .social__media_container hr {
+    margin-bottom: 30px;
+  }
+
+  .social__media_logos {
+    margin-bottom: 35px;
+  }
+
+  .social__media_logos > img {
+    width: 86px;
+    height: 30px;
+  }
+
+  .social__media {
+    gap: 20px;
+  }
+
+  .social__media > img {
+    width: 20px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .social__media_logos > img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .social__media_container {
+    padding: 0 22px;
+  }
+
+  .social__media_container hr {
+    margin-bottom: 20px;
+  }
+
+  .social__media_logos {
+    margin-bottom: 25px;
+  }
+
+  .social__media_logos > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .social__media {
+    gap: 12px;
+  }
+
+  .social__media > img {
+    width: 14px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .social__media_container {
+    padding: 0 16px;
+  }
+
+  .social__media_container hr {
+    border: 1px solid #465461;
+    margin-bottom: 10px;
+  }
+
+  .social__media_logos {
+    margin-bottom: 15px;
+  }
+
+  .social__media_logos > img {
+    width: 45px;
+    height: 13px;
+  }
+
+  .social__media {
+    gap: 8px;
+  }
+
+  .social__media > img {
+    width: 10px;
+    height: auto;
+  }
 }

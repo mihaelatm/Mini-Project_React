@@ -21,3 +21,115 @@
   width: 100px;
   height: auto;
 }
+
+@media screen and (max-width: 1300px) {
+  .companies_container {
+    padding: 0px 70px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .companies_container {
+    padding: 0px 50px;
+  }
+  .text {
+    font-size: 15px;
+    padding: 70px 0 65px 0;
+  }
+  .companies_logos {
+    gap: 35px;
+  }
+
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .companies_container {
+    padding: 0px 30px;
+  }
+  .text {
+    font-size: 14px;
+    padding: 55px 0 55px 0;
+  }
+  .companies_logos {
+    gap: 30px;
+  }
+
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .companies_container {
+    padding: 0px 25px;
+  }
+  .text {
+    font-size: 12px;
+    padding: 40px 0;
+  }
+  .companies_logos {
+    gap: 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .text {
+    font-size: 11px;
+    padding: 30px 0;
+  }
+
+  .companies_logos {
+    gap: 15px;
+  }
+
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .text {
+    font-size: 10px;
+    padding: 25px 0;
+  }
+
+  .companies_logos {
+    gap: 10px;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .companies_container {
+    padding: 0px 16px;
+  }
+
+  .text {
+    font-size: 8px;
+    padding: 25px 0;
+  }
+
+  .companies_logos {
+    gap: 10px;
+  }
+
+  .logo {
+    width: 30px;
+    height: auto;
+  }
+}
