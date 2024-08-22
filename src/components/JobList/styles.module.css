@@ -366,7 +366,6 @@
   }
 
   .jobs__list_cards {
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
 
@@ -419,5 +418,11 @@
     font-size: 9px;
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .jobs__list_cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }

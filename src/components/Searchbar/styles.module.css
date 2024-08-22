@@ -397,3 +397,15 @@
     font-size: 9px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .searchbar_form {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .search_input {
+    width: 200px;
+    padding: 0 40px;
+  }
+}
